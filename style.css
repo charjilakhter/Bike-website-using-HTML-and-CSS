@@ -1,0 +1,68 @@
+{
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background-image: url('bike.jpg');
+        height: 95vh;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .nav-menu {
+        float: right;
+        list-style: none;
+        margin-top: 30px;
+    }
+
+    .nav-menu li {
+        display: inline-block;
+    }
+
+    .nav-menu li a {
+        color:yellow;
+        text-decoration: none;
+        padding: 5px 20px;
+        font-size: 25px;
+    }
+    .homebtn{
+        border: 1px solid yellow;
+        background-color: black;
+
+    }
+
+
+    .nav-menu li :hover {
+        border: 1px solid yellow;
+        background-color: black;
+    }
+
+    .tagline {
+        position: absolute;
+        width: 1200px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    h1 {
+        color: red;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 275px;
+    }
+
+    .old-bike {
+        margin: 30px;
+        margin-left: 590px;
+    }
+
+    .bttn {
+        border: 1px solid green;
+        padding: 10px 30px;
+        color: black;
+        background-color:orangered;
+        font-family: "verdana""sans-serf";
+        font-size: 20px;
+        text-decoration: none;
+    }
